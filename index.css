@@ -1,0 +1,83 @@
+html, body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 0 3%;
+  }
+  
+  .container-2 {
+    padding: 1rem 0;
+  }
+  
+  .container-2 > div {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .logo-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .align-center {
+    text-align: center;
+  }
+  
+  .f-left {
+    float: left;
+  }
+  
+  .f-right  {
+    float: right;
+  }
+  
+  .nav-btn {
+    display: inline-block;
+    border-radius: 5px;
+    background: #333;
+    text-decoration: none; 
+    color: #fff;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    font-size: .75rem;
+  }
+  
+  .nav-btn > span {
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .bg-orange {
+    background: #FF764E;
+  }
+  .bg-blue {
+    background: #5ED3EB;
+  }
+  .bg-yellow {
+    background: #FFCD69;
+  }
+  
+  .info-text {
+    color: #fff;
+    background: #DDB9A3;
+    font-family: 'Chelsea Market', cursive;
+    padding: .5rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-bg {
+    background: url('./assets/footer_img.jpg');
+    background-size: cover;
+    height: 150px;
+  }
+  
+  .footer-nav {
+    padding: 1rem;
+    background: #F9E7DC;
+  }
